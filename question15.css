@@ -1,0 +1,102 @@
+/* 2022/DCSE/023/SS */
+body{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+/* Styling the logo */
+.logo{
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    grid-column: 2;
+    background-color: rgb(173, 173, 189);
+    height: 200px;
+    width: 400px;
+}
+.logo .img_a{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-top: 45px;
+    margin-left: 50px;
+}
+
+.logo .co_name{
+    margin-top: 70px;
+    margin-left: 20px;
+}
+
+.logo .co_slogan{
+    margin-top: -30px;
+    margin-left: 20px;
+}
+/* Styling the card */
+.card{
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    grid-column: 2;
+    background-color: rgb(233, 233, 244);
+    height: 200px;
+    width: 400px;
+}
+.card .left .top_left{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-column: 2;
+
+
+}
+.card .left .top_left .img_a{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.card .left .top_left .co_name{
+    margin-top: 30px;
+    margin-left: 3px;
+    font-size: 13px;
+}
+
+.card .left .top_left .co_slogan{
+    margin-top: -30px;
+    margin-left: 6px;
+    font-size: 11px;
+}
+.card .left .bottom_left .qr-code{
+    width: 80px;
+    height: 70px;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.card .right .top_right #name{
+    font-size: 12px;
+    margin-top: 28px;
+    margin-left: 20px;
+
+}
+
+.card .right .top_right #position {
+    font-size: 11px;
+    margin-left: 20px;
+}
+
+.card .bottom_right #location{
+    font-size: 12px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.card .bottom_right #phone{
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+.card .bottom_right #email{
+    font-size: 11px;
+    margin-left: 20px;
+}
+
