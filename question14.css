@@ -1,0 +1,36 @@
+/* 2022/DCSE/023/SS */
+.para_1{
+    background-color: rgb(0, 204, 255);
+    margin: 20px 5px 20px 5px;
+    padding: 50px 10px 50px 10px;
+    border-style: dashed;
+    }
+
+.para_2{
+    background-color: rgb(0, 255, 255);
+    margin: 18px 25px 18px 25px;
+    padding: 40px 20px 40px 20px;
+    border-style: dotted;
+    }
+
+.para_3{
+    background-color: rgb(0, 235, 106);
+    margin: 15px 45px 15px 45px;
+    padding: 30px 25px 30px 25px;
+    border-style: double;
+    }
+
+.para_4{
+    background-color: rgb(0, 255, 170);
+    margin: 17px 65px 17px 65px;
+    padding: 20px 15px 20px 15px;
+    border-style: groove;
+    }
+
+.para_5{
+    background-color: rgb(170, 236, 179);
+    margin: 15px 85px 15px 85px;
+    padding: 10px 13px 10px 13px;
+    border-style: ridge;
+    }
+    
